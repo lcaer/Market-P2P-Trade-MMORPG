@@ -1,3 +1,15 @@
-# ProjetoBND2
-Objetivos:
-1. Definir o Tema
+# Sistema de Gestão de Marketplaces 
+# com Player-to-Player Trade em MMORPG Genéricos
+
+# Objetivo do Projeto
+O objetivo principal deste projeto é desenvolver um banco de dados relacional funcional para gerenciar a operação básica de um marketplace que funciona com player-to-player trade de um um MMORPG genérico. O sistema visa automatizar e organizar o controle de estoques gerais e individuais dos jogadores, vendas e leilões de itens. Garantindo a integridade das transações e a rastreabilidade das operações financeiras dentro do ecossistema do jogo.
+
+# Escopo do Projeto
+O escopo do projeto compreende a modelagem conceitual, lógica e física de um ambiente centralizado de informações. Ele abrange a criação da estrutura de tabelas com suas respectivas regras de integridade (chaves primárias e estrangeiras) e a simulação de transações por meio da inserção de dados fictícios. O sistema foca nas operações essenciais de um marketplace, retratando fluxo comum desse tipo de transações, deixando de fora a troca de mensagens entre usuários, leilões ao vivo, gráficos complexos em tempo real e outros meios de especulações.
+
+# Funcionalidades Principais
+1. Cadastro de Itens: registro e gerenciamento de dados dos itens, incluindo nome, raridade e quantidade;
+2. Cadastro de Usuários: registro e gerenciamento de dados dos usuários, incluindo, nome, username, nickname, email e telefone; 
+3. Cadastro de Vendas/Trocas: registro e gerenciamento do controle de vendas/trocas, incluindo preços ofertados, quantidade e interesse;
+4. Consulta de Preços: gestão para consultar a precificação dos itens que já foram vendidos, para utilizar de base para venda de semelhantes ou iguais;
+5. Sistema de Câmbio e Conversão: consulta responsável por atualizar a taxa de câmbio diária e realizar a conversão instantânea do valor do seu dinheiro para o sistema e dos itens de moedas virtuais para dólar no momento da transação.
