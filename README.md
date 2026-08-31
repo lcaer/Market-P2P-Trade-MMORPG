@@ -11,4 +11,3 @@ O escopo do projeto compreende a modelagem conceitual, lógica e física de um a
 **2. Cadastro de Usuários:** registro e gerenciamento de dados dos usuários, incluindo, nome, username, nickname, email e telefone; <br>
 **3. Cadastro de Vendas/Trocas:** registro e gerenciamento do controle de vendas/trocas, incluindo preços ofertados, quantidade e interesse; <br>
 **4. Consulta de Preços:** gestão para consultar a precificação dos itens que já foram vendidos, para utilizar de base para venda de semelhantes ou iguais; <br>
-**5. Sistema de Câmbio e Conversão:** consulta responsável por atualizar a taxa de câmbio diária e realizar a conversão instantânea do valor do seu dinheiro para o sistema e dos itens de moedas virtuais para dólar no momento da transação. <br>
