@@ -13,10 +13,10 @@ O escopo do projeto compreende a modelagem conceitual, lógica e física de um a
 **3. Cadastro de Vendas/Trocas:** registro e gerenciamento do controle de vendas/trocas, incluindo preços ofertados, quantidade e interesse;
 **4. Consulta de Preços:** gestão para consultar a precificação dos itens que já foram vendidos, para utilizar de base para venda de semelhantes ou iguais;
 
-**Diagramas Entidade-Relacionamento**
-[Conceitual](documentation/erd%20conceitual.png)
+**Diagramas Entidade-Relacionamento**<br>
+[Conceitual](documentation/erd%20conceitual.png)<br>
 [Lógico](documentation/erd%20logico.png)
 
-**Expansão da Descrição Geral**
-[Descrição Detalhada do Projeto](documentation/Descrição%20Detalhada%20do%20Projeto.pdf)
+**Expansão da Descrição Geral**<br>
+[Descrição Detalhada do Projeto](documentation/Descrição%20Detalhada%20do%20Projeto.pdf)<br>
 [Descrição Detalhada dos Diagramas](documentation/Descrição%20Detalhada%20dos%20Diagramas%20de%20Entidade-Relacionamento.pdf)
