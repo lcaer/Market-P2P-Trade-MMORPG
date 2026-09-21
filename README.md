@@ -1,5 +1,5 @@
 # Sistema de Gestão de Marketplaces com <br> Player-to-Player Trade em MMORPG Genéricos 
-*Atualizado em 09/09/2026*
+*Atualizado em 21/09/2026*
 
 **Objetivo do Projeto** <br>
 O objetivo principal deste projeto é desenvolver um banco de dados relacional funcional para gerenciar a operação básica de um marketplace que funciona com player-to-player trade de um um MMORPG genérico. O sistema visa automatizar e organizar o controle de estoques gerais e individuais dos jogadores, vendas e leilões de itens. Garantindo a integridade das transações e a rastreabilidade das operações financeiras dentro do ecossistema do jogo.
