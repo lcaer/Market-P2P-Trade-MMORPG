@@ -14,8 +14,8 @@ O escopo do projeto compreende a modelagem conceitual, lógica e física de um a
 **4. Consulta de Preços:** gestão para consultar a precificação dos itens que já foram vendidos, para utilizar de base para venda de semelhantes ou iguais; <br>
 
 **Diagramas Entidade-Relacionamento**<br>
-[Conceitual](documentation/erd%20conceitual.png)<br>
-[Lógico](documentation/erd%20logico.png)
+[Conceitual Desatualizado](documentation/erd%20conceitual.png)<br>
+[Lógico Atualizado](documentation/erd%20logico.png)
 
 **Expansão da Descrição Geral**<br>
 [Descrição Detalhada do Projeto](documentation/Descrição%20Detalhada%20do%20Projeto.pdf)<br>
