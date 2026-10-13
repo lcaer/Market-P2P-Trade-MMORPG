@@ -1,0 +1,47 @@
+--SET SERVEROUTPUT ON;
+CREATE OR REPLACE PROCEDURE UPD_P2P_USUARIO_POR_EMAIL (
+    P_NOME IN P2P_USUARIO.NOME%TYPE, 
+    P_UNAME IN P2P_USUARIO.USERNAME%TYPE,
+    P_EMAIL IN P2P_USUARIO.EMAIL%TYPE,
+    P_SENHA IN P2P_USUARIO.SENHA%TYPE) 
+    IS
+BEGIN
+    UPDATE P2P_USUARIO
+        SET NOME = P_NOME,
+            USERNAME = P_UNAME,
+            SENHA = P_SENHA
+    WHERE EMAIL = P_EMAIL;
+END;
+
+/*
+BEGIN
+    UPD_P2P_USUARIO_POR_EMAIL('Teste MOD','testemod','teste@gmail.com','teste1234mod');
+END;
+
+SELECT * FROM P2P_USUARIO;
+*/
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+CREATE OR REPLACE PROCEDURE UPD_P2P_USUARIO_POR_USERNAME (
+    P_NOME IN P2P_USUARIO.NOME%TYPE, 
+    P_UNAME IN P2P_USUARIO.USERNAME%TYPE,
+    P_EMAIL IN P2P_USUARIO.EMAIL%TYPE,
+    P_SENHA IN P2P_USUARIO.SENHA%TYPE) 
+    IS
+BEGIN
+    UPDATE P2P_USUARIO
+        SET NOME = P_NOME,
+            EMAIL = P_EMAIL,
+            SENHA = P_SENHA
+    WHERE USERNAME = P_UNAME;
+END;
+
+/*
+BEGIN
+    UPD_P2P_USUARIO_POR_USERNAME('Teste MOD2','testemod','testemod2@gmail.com','teste1234mod2');
+END;
+
+SELECT * FROM P2P_USUARIO;
+*/
