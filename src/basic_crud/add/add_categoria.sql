@@ -1,26 +1,23 @@
-CREATE OR REPLACE PROCEDURE ADD_P2P_CATEGORIA (
+--SET SERVEROUTPUT ON;
+CREATE OR REPLACE PROCEDURE ADD_P2P_CATEGORIA_MATERIA_PRIMA (
     P_NOME IN P2P_CATEGORIA.NOME%TYPE,
-    P_TIPO IN P2P_CATEGORIA.TIPO%TYPE,
     P_COD IN P2P_CATEGORIA.COD%TYPE
 ) IS
 BEGIN
     INSERT INTO P2P_CATEGORIA (NOME, TIPO, COD)
-    VALUES (P_NOME, P_TIPO, P_COD);
+    VALUES (P_NOME, 0, P_COD);
 END;
 /
 
-/*
-BEGIN
-    -- 0 = matéria-prima, 1 = produto
-    ADD_P2P_CATEGORIA('Dinheiro', 1, 'DIN');
-    ADD_P2P_CATEGORIA('Armas', 1, 'WPN');
-    ADD_P2P_CATEGORIA('Poções', 1, 'POT');
-    ADD_P2P_CATEGORIA('Acessórios', 1, 'ACC');
-    ADD_P2P_CATEGORIA('Alimentos', 1, 'ALI');
-    ADD_P2P_CATEGORIA('Minérios', 0, 'MIN');
-    ADD_P2P_CATEGORIA('Plantas', 0, 'PLA');
-    ADD_P2P_CATEGORIA('Tecidos', 0, 'TEC');
-END;
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
-SELECT * FROM P2P_CATEGORIA;
-*/
+CREATE OR REPLACE PROCEDURE ADD_P2P_CATEGORIA_PRODUTO (
+    P_NOME IN P2P_CATEGORIA.NOME%TYPE,
+    P_COD IN P2P_CATEGORIA.COD%TYPE
+) IS
+BEGIN
+    INSERT INTO P2P_CATEGORIA (NOME, TIPO, COD)
+    VALUES (P_NOME, 1, P_COD);
+END;
+/
